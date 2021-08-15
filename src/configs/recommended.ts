@@ -4,8 +4,6 @@ export default {
     'plugin:@typescript-eslint/all',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:jest/all',
-    'prettier',
   ],
   rules: {
     // eslint
