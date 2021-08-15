@@ -1,7 +1,7 @@
 export default {
   plugins: ['sort-keys-fix'],
   extends: [
-    'eslint:all',
+    'eslint:recommended',
     'plugin:@typescript-eslint/all',
     'plugin:import/recommended',
     'plugin:import/typescript',
