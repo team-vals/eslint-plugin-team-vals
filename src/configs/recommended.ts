@@ -1,4 +1,5 @@
 export default {
+  plugins: ['sort-keys-fix'],
   extends: [
     'eslint:all',
     'plugin:@typescript-eslint/all',
