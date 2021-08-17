@@ -27,9 +27,12 @@ jobs:
 
       - name: Install
         run: yarn
-      
+
       - name: Build
         run: yarn build
+
+      - name: Version up
+        run: npm version patch -m "[patch] %s"
 
       - name: NPM Publish
         uses: JS-DevTools/npm-publish@v1
