@@ -32,7 +32,10 @@ jobs:
         run: yarn build
 
       - name: Version up
-        run: npm version patch -m "[patch] %s"
+        run: |
+          git config --global user.email yuuta3594@outlook.jp
+          git config --global user.name YutaUra
+          npm version patch -m "[patch] %s"
 
       - name: NPM Publish
         uses: JS-DevTools/npm-publish@v1
