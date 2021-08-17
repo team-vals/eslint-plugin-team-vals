@@ -36,6 +36,6 @@ export default {
     'react/jsx-max-props-per-line': 'off',
     'react/jsx-indent-props': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-max-depth': 'off',
+    'react/jsx-max-depth': ['warn', { max: 5 }],
   },
 }
