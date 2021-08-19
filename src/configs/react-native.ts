@@ -3,5 +3,9 @@ export default {
   rules: {
     // react
     'react/forbid-component-props': 'off',
+
+    // import
+    // react-native を import するときになんかエラーが出る
+    'import/namespace': 'off',
   },
 }
