@@ -16,6 +16,7 @@ export default {
     // @typescript-eslint
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
