@@ -23,6 +23,7 @@ export default {
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-unsafe-argument': 'off',
+    '@typescript-eslint/no-unsafe-return': 'off',
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
