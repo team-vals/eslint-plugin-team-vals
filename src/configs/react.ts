@@ -10,6 +10,9 @@ export default {
     },
   },
   rules: {
+    // eslint
+    'no-undef': 'off',
+
     // @typescript-eslint
     '@typescript-eslint/naming-convention': 'off',
 
