@@ -12,6 +12,7 @@ export default {
     'no-warning-comments': 'warn',
     'one-var': 'off',
     'sort-imports': 'off',
+    'no-undef': 'off',
 
     // @typescript-eslint
     '@typescript-eslint/no-unsafe-call': 'off',
