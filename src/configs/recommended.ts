@@ -22,6 +22,7 @@ export default {
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-magic-numbers': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
