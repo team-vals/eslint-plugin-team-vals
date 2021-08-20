@@ -3,6 +3,7 @@ export default {
     'plugin:import/react',
     'plugin:react/all',
     'plugin:react-hooks/recommended',
+    'prettier',
   ],
   settings: {
     react: {
