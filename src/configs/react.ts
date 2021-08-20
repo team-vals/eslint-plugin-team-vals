@@ -17,6 +17,7 @@ export default {
     '@typescript-eslint/naming-convention': 'off',
 
     // react
+    'react/jsx-newline': 'error',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       'error',
