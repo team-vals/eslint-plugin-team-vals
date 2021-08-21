@@ -42,5 +42,6 @@ export default {
     'react/jsx-indent-props': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-max-depth': ['warn', { max: 5 }],
+    'react/require-default-props': 'off',
   },
 }
