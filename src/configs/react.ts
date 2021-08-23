@@ -43,5 +43,6 @@ export default {
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-max-depth': ['warn', { max: 5 }],
     'react/require-default-props': 'off',
+    'react/display-name': 'off',
   },
 }
