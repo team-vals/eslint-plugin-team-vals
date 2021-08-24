@@ -14,6 +14,7 @@ export default {
     'one-var': 'off',
     'sort-imports': 'off',
     'no-undef': 'off',
+    "no-shadow": "off",
 
     // @typescript-eslint
     '@typescript-eslint/no-unsafe-call': 'off',
@@ -25,6 +26,7 @@ export default {
     '@typescript-eslint/no-unsafe-argument': 'off',
     '@typescript-eslint/no-unsafe-return': 'off',
     '@typescript-eslint/restrict-template-expressions': 'off',
+    "@typescript-eslint/no-shadow": "error",
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
