@@ -15,6 +15,7 @@ export default {
     'sort-imports': 'off',
     'no-undef': 'off',
     "no-shadow": "off",
+    'no-void': ['error', {"allowAsStatement": true}],
 
     // @typescript-eslint
     '@typescript-eslint/no-unsafe-call': 'off',
