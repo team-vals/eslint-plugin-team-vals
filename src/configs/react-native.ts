@@ -3,6 +3,7 @@ export default {
   rules: {
     // eslint
     'no-undef': 'off',
+    'no-warning-comments': 'warn',
 
     // react
     'react/forbid-component-props': 'off',

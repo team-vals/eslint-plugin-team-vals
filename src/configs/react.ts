@@ -13,6 +13,7 @@ export default {
   rules: {
     // eslint
     'no-undef': 'off',
+    'no-warning-comments': 'warn',
 
     // @typescript-eslint
     '@typescript-eslint/naming-convention': 'off',
