@@ -14,6 +14,7 @@ export default {
     // eslint
     'no-undef': 'off',
     'no-warning-comments': 'warn',
+    'no-console': ["error", {allow: ["warn", "error", "info", "debug"]}],
 
     // @typescript-eslint
     '@typescript-eslint/naming-convention': 'off',

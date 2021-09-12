@@ -16,6 +16,7 @@ export default {
     'no-undef': 'off',
     "no-shadow": "off",
     'no-void': ['error', {"allowAsStatement": true}],
+    'no-console': ["error", {allow: ["warn", "error", "info", "debug"]}],
 
     // @typescript-eslint
     '@typescript-eslint/no-unsafe-call': 'off',
