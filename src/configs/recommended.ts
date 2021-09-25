@@ -6,6 +6,16 @@ export default {
     'plugin:import/recommended',
     'plugin:import/typescript',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
   rules: {
     // eslint
     'func-style': ['error', 'expression'],
