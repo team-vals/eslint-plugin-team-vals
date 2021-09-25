@@ -1,3 +1,4 @@
+import prettier from './configs/prettier'
 import react from './configs/react'
 import reactNative from './configs/react-native'
 import recommended from './configs/recommended'
@@ -8,6 +9,7 @@ export default {
     recommended,
     react,
     'react-native': reactNative,
+    prettier,
     tailwindcss,
   },
 }

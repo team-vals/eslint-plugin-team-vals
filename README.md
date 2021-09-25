@@ -5,7 +5,7 @@
 インストール
 
 ```
-yarn add -D eslint eslint-plugin-team-vals eslint-config-prettier
+yarn add -D eslint eslint-plugin-team-vals
 ```
 
 ```json
@@ -15,7 +15,8 @@ yarn add -D eslint eslint-plugin-team-vals eslint-config-prettier
     "plugin:team-vals/recommended",
     "plugin:team-vals/react", // For React Project
     "plugin:team-vals/react-native", // For React Native Project
-    "plugin:team-vals/tailwindcss" // For Tailwindcss Project
+    "plugin:team-vals/tailwindcss", // For Tailwindcss Project
+    "plugin:team-vals/prettier"
   ],
   "parserOptions": {
     "project": "tsconfig.json",

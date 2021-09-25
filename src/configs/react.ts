@@ -3,7 +3,6 @@ export default {
     'plugin:import/react',
     'plugin:react/all',
     'plugin:react-hooks/recommended',
-    'plugin:team-vals/prettier',
   ],
   settings: {
     react: {
