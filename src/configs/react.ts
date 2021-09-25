@@ -3,7 +3,7 @@ export default {
     'plugin:import/react',
     'plugin:react/all',
     'plugin:react-hooks/recommended',
-    'prettier',
+    'plugin:team-vals/prettier',
   ],
   settings: {
     react: {
@@ -14,13 +14,12 @@ export default {
     // eslint
     'no-undef': 'off',
     'no-warning-comments': 'warn',
-    'no-console': ["error", {allow: ["warn", "error", "info", "debug"]}],
+    'no-console': ['error', { allow: ['warn', 'error', 'info', 'debug'] }],
 
     // @typescript-eslint
     '@typescript-eslint/naming-convention': 'off',
 
     // react
-    'react/jsx-newline': 'error',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       'error',
@@ -35,15 +34,10 @@ export default {
         unnamedComponents: 'arrow-function',
       },
     ],
-    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-no-literals': 'off',
     'react/no-multi-comp': 'off',
     'react/prop-types': 'off',
-    'react/jsx-indent': 'off',
-    'react/jsx-max-props-per-line': 'off',
-    'react/jsx-indent-props': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-max-depth': ['warn', { max: 5 }],
     'react/require-default-props': 'off',
     'react/display-name': 'off',
     'react/forbid-component-props': 'off',

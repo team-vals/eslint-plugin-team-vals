@@ -14,7 +14,8 @@ yarn add -D eslint eslint-plugin-team-vals eslint-config-prettier
   "extends": [
     "plugin:team-vals/recommended",
     "plugin:team-vals/react", // For React Project
-    "prettier"
+    "plugin:team-vals/react-native", // For React Native Project
+    "plugin:team-vals/tailwindcss" // For Tailwindcss Project
   ],
   "parserOptions": {
     "project": "tsconfig.json",
