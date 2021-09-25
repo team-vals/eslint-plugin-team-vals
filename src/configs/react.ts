@@ -46,5 +46,6 @@ export default {
     'react/jsx-max-depth': ['warn', { max: 5 }],
     'react/require-default-props': 'off',
     'react/display-name': 'off',
+    'react/forbid-component-props': 'off',
   },
 }
