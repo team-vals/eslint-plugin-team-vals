@@ -1,7 +1,7 @@
 export default {
   extends: [
     // '@react-native-community',
-    'plugin:team-vals/react',
+    'plugin:team-vals/vals-react',
   ],
   rules: {
     // eslint
