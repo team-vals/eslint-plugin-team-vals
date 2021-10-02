@@ -7,7 +7,7 @@ import valsReactNative from './configs/vals-react-native'
 export default {
   configs: {
     recommended,
-    valsReact,
+    'vals-react': valsReact,
     'vals-react-native': valsReactNative,
     prettier,
     tailwindcss,
