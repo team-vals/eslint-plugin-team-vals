@@ -1,14 +1,14 @@
 import prettier from './configs/prettier'
-import react from './configs/react'
-import reactNative from './configs/react-native'
 import recommended from './configs/recommended'
 import tailwindcss from './configs/tailwindcss'
+import valsReact from './configs/vals-react'
+import valsReactNative from './configs/vals-react-native'
 
 export default {
   configs: {
     recommended,
-    react,
-    'react-native': reactNative,
+    valsReact,
+    'vals-react-native': valsReactNative,
     prettier,
     tailwindcss,
   },

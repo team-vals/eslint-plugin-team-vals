@@ -13,8 +13,8 @@ yarn add -D eslint eslint-plugin-team-vals
 {
   "extends": [
     "plugin:team-vals/recommended",
-    "plugin:team-vals/react", // For React Project
-    "plugin:team-vals/react-native", // For React Native Project
+    "plugin:team-vals/vals-react", // For React Project
+    "plugin:team-vals/vals-react-native", // For React Native Project
     "plugin:team-vals/tailwindcss", // For Tailwindcss Project
     "plugin:team-vals/prettier"
   ],
