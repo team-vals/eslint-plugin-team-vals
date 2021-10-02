@@ -2,20 +2,51 @@
 
 ## 使用方法
 
-インストール
+### インストール
 
 ```
 yarn add -D eslint eslint-plugin-team-vals
 ```
+
+### Simple Typescript Project
+
+```json
+// .eslintrc
+{
+  "extends": ["plugin:team-vals/recommended", "plugin:team-vals/prettier"],
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "tsconfigRootDir": "./"
+  }
+}
+```
+
+### React Project
 
 ```json
 // .eslintrc
 {
   "extends": [
     "plugin:team-vals/recommended",
-    "plugin:team-vals/vals-react", // For React Project
-    "plugin:team-vals/vals-react-native", // For React Native Project
-    "plugin:team-vals/tailwindcss", // For Tailwindcss Project
+    "plugin:team-vals/react",
+    "plugin:team-vals/tailwindcss", // if you need
+    "plugin:team-vals/prettier"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "tsconfigRootDir": "./"
+  }
+}
+```
+
+### React Native Project
+
+```json
+// .eslintrc
+{
+  "extends": [
+    "plugin:team-vals/recommended",
+    "plugin:team-vals/react-native",
     "plugin:team-vals/prettier"
   ],
   "parserOptions": {
