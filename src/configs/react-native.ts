@@ -5,6 +5,7 @@ export default {
     'no-undef': 'off',
     'no-warning-comments': 'warn',
     'no-console': ['error', { allow: ['warn', 'error', 'info', 'debug'] }],
+    "@typescript-eslint/no-namespace": [ "error", { "allowDeclarations": true } ],
 
     // react
     'react/forbid-component-props': 'off',
