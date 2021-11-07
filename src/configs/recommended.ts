@@ -39,6 +39,7 @@ export default {
     '@typescript-eslint/no-unsafe-return': 'off',
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-empty-interface': 'off',
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
