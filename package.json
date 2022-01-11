@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-tailwindcss": "^3.0.4"
+    "eslint-plugin-tailwindcss": "^3.1.2"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.0",
