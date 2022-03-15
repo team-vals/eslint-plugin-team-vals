@@ -29,7 +29,7 @@
     "@types/eslint": "^8.4.1",
     "rollup": "^2.68.0",
     "rollup-plugin-auto-external": "^2.0.0",
-    "typescript": "^4.5.5",
+    "typescript": "^4.6.2",
     "typesync": "^0.8.0"
   },
   "peerDependencies": {
