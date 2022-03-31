@@ -13,7 +13,7 @@
     "prepare": "typesync || :"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
@@ -30,7 +30,7 @@
     "rollup": "^2.68.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "typescript": "^4.5.5",
-    "typesync": "^0.8.0"
+    "typesync": "^0.9.0"
   },
   "peerDependencies": {
     "typescript": "^4.4.3"
