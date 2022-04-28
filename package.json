@@ -30,7 +30,7 @@
     "rollup": "^2.70.1",
     "rollup-plugin-auto-external": "^2.0.0",
     "typescript": "^4.6.3",
-    "typesync": "^0.9.0"
+    "typesync": "^0.9.1"
   },
   "peerDependencies": {
     "typescript": "^4.4.3"
