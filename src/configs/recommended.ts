@@ -40,6 +40,7 @@ export default {
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/consistent-type-imports': 'error',
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
