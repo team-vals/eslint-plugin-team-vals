@@ -1,5 +1,5 @@
 export default {
-  plugins: ['sort-keys-fix'],
+  plugins: ['sort-keys-fix', 'unused-imports'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -44,5 +44,8 @@ export default {
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
+
+    // unused-imports
+    'unused-imports/no-unused-imports': 'error',
   },
 }
