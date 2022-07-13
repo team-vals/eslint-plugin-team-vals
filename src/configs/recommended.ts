@@ -41,6 +41,14 @@ export default {
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        'argsIgnorePattern': '^_',
+        'varsIgnorePattern': '^_',
+        'caughtErrorsIgnorePattern': '^_'
+      }
+    ],
 
     // sort-keys-fix
     'sort-keys-fix/sort-keys-fix': 'error',
