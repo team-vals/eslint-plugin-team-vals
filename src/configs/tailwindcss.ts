@@ -1,4 +1,11 @@
 export default {
   extends: ['plugin:tailwindcss/recommended'],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
+    ]
+  },
 }
