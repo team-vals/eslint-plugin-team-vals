@@ -28,7 +28,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/eslint": "^8.21.3",
-    "rollup": "^3.20.0",
+    "rollup": "^3.20.1",
     "rollup-plugin-auto-external": "^2.0.0",
     "typescript": "^5.0.2",
     "typesync": "^0.10.0"
