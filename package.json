@@ -30,7 +30,7 @@
     "@types/eslint": "^8.56.6",
     "rollup": "^4.13.0",
     "rollup-plugin-auto-external": "^2.0.0",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.3",
     "typesync": "^0.12.1"
   },
   "peerDependencies": {
