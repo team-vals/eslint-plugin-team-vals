@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-team-vals",
-  "version": "1.0.105",
+  "version": "1.0.106",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "repository": "git@github.com:team-vals/eslint-config-team-vals.git",
