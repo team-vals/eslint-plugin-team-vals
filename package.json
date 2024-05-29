@@ -2,6 +2,7 @@
   "name": "eslint-plugin-team-vals",
   "version": "1.0.101",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "repository": "git@github.com:team-vals/eslint-config-team-vals.git",
   "author": "YutaUra <yuuta3594@outlook.jp>",
   "license": "MIT",
@@ -9,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "tsup",
     "prepare": "typesync || :"
   },
   "packageManager": "pnpm@9.1.2",
@@ -27,12 +28,9 @@
     "eslint-plugin-unused-imports": "^3.2.0"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^11.1.6",
     "@types/eslint": "^8.56.7",
     "@types/eslint-config-prettier": "~6.11.3",
-    "@types/rollup-plugin-auto-external": "~2.0.5",
-    "rollup": "^4.18.0",
-    "rollup-plugin-auto-external": "^2.0.0",
+    "tsup": "8.0.2",
     "typescript": "^5.4.5",
     "typesync": "^0.12.1"
   },
