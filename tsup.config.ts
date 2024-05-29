@@ -5,5 +5,6 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   target: 'node20',
   clean: true,
+  cjsInterop: true,
   splitting: true,
 })
