@@ -12,33 +12,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.4.0
+      - uses: actions/checkout@v4.1.6
+      - uses: actions/setup-node@v4.0.2
         with:
-          node-version: 14
-
-      - name: Cache
-        uses: actions/cache@v2.1.6
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-
+          node-version-file: .node-version
+      - run: corepack enable pnpm
       - name: Install
-        run: yarn
-
+        run: pnpm i
       - name: Build
-        run: yarn build
-
+        run: pnpm run build
       - name: Version up
         run: |
-          git config --global user.email yuuta3594@outlook.jp
+          git config --global user.email yuuta3594@gmail.com
           git config --global user.name YutaUra
           npm version patch -m "[patch] %s"
           git push
 
       - name: NPM Publish
-        uses: JS-DevTools/npm-publish@v1
+        uses: JS-DevTools/npm-publish@v3.1.1
         with:
           token: ${{ secrets.NPM_TOKEN }}

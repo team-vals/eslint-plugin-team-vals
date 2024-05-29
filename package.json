@@ -12,6 +12,7 @@
     "build": "rollup -c",
     "prepare": "typesync || :"
   },
+  "packageManager": "pnpm@9.1.2",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",

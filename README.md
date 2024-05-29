@@ -5,7 +5,7 @@
 ### インストール
 
 ```
-yarn add -D eslint eslint-plugin-team-vals
+pnpm add -D eslint eslint-plugin-team-vals
 ```
 
 ### Simple Typescript Project
