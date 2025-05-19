@@ -15,7 +15,7 @@
   "packageManager": "pnpm@9.1.2",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "8.32.1",
-    "@typescript-eslint/parser": "8.32.0",
+    "@typescript-eslint/parser": "8.32.1",
     "eslint-config-prettier": "10.1.5",
     "eslint-import-resolver-typescript": "4.3.5",
     "eslint-plugin-import": "2.31.0",
